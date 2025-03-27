@@ -12,10 +12,8 @@
   # This sample publishes the directory located at the absolute 
   # path "root/project/build-output"
 
-  publish = "build-output/"
-
-  # Default build command.
-  command = "echo 'default context'"
+  command = "npm run build"
+  publish = "dist"
 
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
