@@ -1,5 +1,5 @@
-import React from 'react';
-import { BookOpen, Users, Award, TrendingUp, ArrowRight, Play, Tv } from 'lucide-react';
+import React from "react";
+import { Users, Award, TrendingUp, ArrowRight, Play, Tv } from "lucide-react";
 
 function App() {
   return (
@@ -12,12 +12,20 @@ function App() {
             <span className="text-2xl font-bold text-gray-900">artizan.tv</span>
           </div>
           <div className="hidden md:flex space-x-8">
-            <a href="#courses" className="text-gray-600 hover:text-[#5603AD]">Courses</a>
-            <a href="#features" className="text-gray-600 hover:text-[#5603AD]">Features</a>
-            <a href="#pricing" className="text-gray-600 hover:text-[#5603AD]">Pricing</a>
+            <a href="#courses" className="text-gray-600 hover:text-[#5603AD]">
+              Courses
+            </a>
+            <a href="#features" className="text-gray-600 hover:text-[#5603AD]">
+              Features
+            </a>
+            <a href="#pricing" className="text-gray-600 hover:text-[#5603AD]">
+              Pricing
+            </a>
           </div>
           <div className="flex space-x-4">
-            <button className="px-4 py-2 text-[#5603AD] hover:text-[#4a0294]">Log in</button>
+            <button className="px-4 py-2 text-[#5603AD] hover:text-[#4a0294]">
+              Log in
+            </button>
             <button className="px-4 py-2 bg-[#5603AD] text-white rounded-lg hover:bg-[#4a0294]">
               Get Started
             </button>
@@ -30,7 +38,8 @@ function App() {
               Transform Your Learning Journey
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Access world-class courses, expert instructors, and a supportive community to accelerate your learning journey.
+              Access world-class courses, expert instructors, and a supportive
+              community to accelerate your learning journey.
             </p>
             <div className="flex space-x-4">
               <button className="px-8 py-4 bg-[#5603AD] text-white rounded-lg hover:bg-[#4a0294] flex items-center">
@@ -67,21 +76,27 @@ function App() {
                 <Users className="h-8 w-8 text-[#5603AD]" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Expert Instructors</h3>
-              <p className="text-gray-600">Learn from industry professionals with real-world experience.</p>
+              <p className="text-gray-600">
+                Learn from industry professionals with real-world experience.
+              </p>
             </div>
             <div className="text-center">
               <div className="bg-[#5603AD]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="h-8 w-8 text-[#5603AD]" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Certified Learning</h3>
-              <p className="text-gray-600">Earn recognized certificates upon course completion.</p>
+              <p className="text-gray-600">
+                Earn recognized certificates upon course completion.
+              </p>
             </div>
             <div className="text-center">
               <div className="bg-[#5603AD]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="h-8 w-8 text-[#5603AD]" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Flexible Learning</h3>
-              <p className="text-gray-600">Learn at your own pace with lifetime access to courses.</p>
+              <p className="text-gray-600">
+                Learn at your own pace with lifetime access to courses.
+              </p>
             </div>
           </div>
         </div>
@@ -117,7 +132,9 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Tv className="h-8 w-8 text-[#5603AD]" />
-              <span className="text-xl font-bold text-gray-900">artizan.tv</span>
+              <span className="text-xl font-bold text-gray-900">
+                artizan.tv
+              </span>
             </div>
             <div className="text-gray-600">
               © 2024 artizan.tv All rights reserved.
