@@ -9,7 +9,7 @@
 
 [context.production]
   # Ensure the publish directory is consistent unless specifically needed
-  publish = "project/dist"
+  publish = "dist"
   command = "npm run build" # Changed to standardize the build process across all contexts
   environment = { NODE_VERSION = "14.15.3" }
 
